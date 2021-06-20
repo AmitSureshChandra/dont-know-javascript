@@ -1,14 +1,4 @@
-console.log('````````````````````````');
-console.log(' every module is wrapped in (function (exports, require, module, __filename, __dirname){/*  code */ }) \n');
+let temp = require('./first')
 
-console.log('````````````````````````');
-
-console.dir({ arguments }, {depth: 2})
-
-console.log('````````````````````````');
-
-let fun = function(msg) {
-    console.dir({ arguments }, {depth: 2})
-}
-
-fun('it is message')
+console.log(temp.fun1('First Commit'));
+console.log(temp.fun2('Second Commit'));
