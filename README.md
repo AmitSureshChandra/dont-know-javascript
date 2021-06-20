@@ -17,3 +17,10 @@ sample : `node -r esm code.js`
 
 - to debug run `node --inspect-brk file_name.js`
 - in chrome open `chrome://inspect`
+
+# Node popularity 
+
+- JS Full Stack
+- Non-blocking Event-driven
+- Virtual Machine
+- Single Threaded
