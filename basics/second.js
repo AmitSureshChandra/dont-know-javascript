@@ -1,3 +1,6 @@
-let temp = require('./first')
+require('./first')('new message')
 
-temp.fun('new message')
+//  or 
+
+let temp = require('./first')
+temp('Another message')
