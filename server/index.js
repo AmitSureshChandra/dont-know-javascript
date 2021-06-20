@@ -1,8 +1,8 @@
-const http = require('http')
+const express = require('express')
 
-const server = http.createServer()
+const server = express()
 
-server.on('request', (req,res) => {
+server.get('/', (req,res) => {
     res.write('Hello World')
 
     // will think streaming data without end()
