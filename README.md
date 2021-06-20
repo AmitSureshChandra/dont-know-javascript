@@ -7,9 +7,13 @@ eg. https://github.com/expressjs/express
 
 to install :  `npm i expressjs/express`
 
-# esm npm package (for 10.x or older)
+# esm npm package for ECMA module node 10.x or older
 
 for `10.x` or `older` we can use `esm` npm package for ECMA module. Below `-r` stands for load module before executing script
 
 sample : `node -r esm code.js`
 
+# node built-in debugging
+
+- to debug run `node --inspect-brk file_name.js`
+- in chrome open `chrome://inspect`
