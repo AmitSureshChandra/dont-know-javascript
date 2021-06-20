@@ -1,0 +1,20 @@
+{
+  "name": "dont-know-javascript",
+  "version": "1.0.0",
+  "description": "Javascript is one of the most dynamic &amp; mostly unpredictable language. In this repo I am going to maintain various things available in it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitSureshChandra/dont-know-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmitSureshChandra/dont-know-javascript/issues"
+  },
+  "homepage": "https://github.com/AmitSureshChandra/dont-know-javascript#readme"
+}
