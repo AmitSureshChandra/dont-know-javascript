@@ -1,10 +1,7 @@
-let fun1 = (msg) => {
+let  fun1 = (msg) => {
     return console.log({msg});
 }
 
-let fun2 = (msg) => {
-    return console.log({msg});
+export default {
+   fun1
 }
-
-exports.fun1 = fun1
-exports.fun2 = fun2

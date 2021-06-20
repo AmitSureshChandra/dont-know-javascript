@@ -1,4 +1,3 @@
-let temp = require('./first')
+import f from './first.js'
 
-console.log(temp.fun1('First Commit'));
-console.log(temp.fun2('Second Commit'));
+f.fun1('asddsa')
