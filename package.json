@@ -4,7 +4,7 @@
   "description": "Javascr ipt is one of the most dynamic &amp; mostly unpredictable language. In this repo I am going to maintain various things available in it",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nodemon server"
   },
   "type": "commonjs",
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AmitSureshChandra/dont-know-javascript/issues"
   },
-  "homepage": "https://github.com/AmitSureshChandra/dont-know-javascript#readme"
+  "homepage": "https://github.com/AmitSureshChandra/dont-know-javascript#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
