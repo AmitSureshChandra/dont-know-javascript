@@ -7,3 +7,9 @@
 - `-D` for dev dependency 
 - `-S` for prod dependency 
 - `-O` for optional dependency 
+- `npm i npm -g ` to update npm
+- `npm outdated`
+- `npm config list -l` to see all list of configs
+- `npm config delete config-name`
+- `npm repo lodash` - open repository
+- `npm home lodash`
