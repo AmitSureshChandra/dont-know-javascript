@@ -5,7 +5,7 @@ Javascript is one of the most dynamic &amp; mostly unpredictable language. In th
 
 eg. https://github.com/expressjs/express
 
-to install :  `npm i expressjs/express`
+to install :  `npm i expressjs/express#4.14.4`
 
 # esm npm package for ECMA module node 10.x or older
 
