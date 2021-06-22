@@ -18,6 +18,7 @@ let readFileAsArray = (filename, cb = () => {}) => {
     })  
 }
 
+// using callback
 readFileAsArray('./basics/promises/data/numbers.txt', (err, data) => {
     if (err) {
         console.error({err});
@@ -50,3 +51,7 @@ async function read(filename){
 read('./basics/promises/data/numbers.txt')
 
 console.log({end : 'end'});
+
+
+
+

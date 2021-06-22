@@ -15,13 +15,13 @@ let fileSize = (filename) => {
     })
 }
 
-fileSize(1)
+fileSize(__filename)
     .then((data) => {
         console.log({data});
     })
     .catch((e) => {
         console.error(err.toString())
-        process.exit()
+       process.exit()
     })
 
 
