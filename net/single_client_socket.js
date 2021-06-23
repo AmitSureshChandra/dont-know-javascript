@@ -1,7 +1,7 @@
 const net = require('net');
 
 let server = net.createServer((socket) => {
-    console.log(`Server is connected`);
+    console.log(`Client is connected`);
     socket.write(`Welcome new Client\n`);
 
     socket.on('data', data => {
