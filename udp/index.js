@@ -27,14 +27,14 @@ client.send(buffer, 0, 11, PORT, HOST, (err) => {
         throw err;
     }
 
-    console.log('UDP message send');
-    // client.close()
+    client.send(buffer, 11, 6, PORT, HOST, (err) => {
+        if (err) {
+            throw err;
+        }
+
+        console.log('UDP message send');
+        client.close()
+    })
 })
 
-client.send(buffer, 11, buffer.length, PORT, HOST, (err) => {
-    if (err) {
-        throw err;
-    }
 
-    console.log('UDP message send');
-})
